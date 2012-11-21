@@ -1,0 +1,231 @@
+/* MAIN INDEX CSS */
+
+body {
+	margin: 0px;
+	padding: 0px;
+    font-family: 'Open sans';
+    background:#f7f7f7;
+    font-size:14px;
+    color:#333;
+}
+
+a {
+    color:#333;
+    text-decoration:none;
+}
+
+a:hover {
+    color:#3A9EF4;
+}
+
+h1 { font-size: 20px;
+	text-align:center;
+}
+
+#login { float:right;}
+
+#login a { padding: 0 0 0 35px; }
+
+.logo {
+    float: left;
+    position: relative;
+    top: 17px;
+}
+
+.container {
+    display: block;
+    margin: 0 auto;
+    width: 940px;
+}
+
+.header {
+	border-bottom: 1px dashed #CECECE; 
+    width: 940px;
+	display: block;
+    margin: 0 auto;
+}
+
+.row {
+    display: inline-block;
+    width: 940px;
+}
+
+.row.link {
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+.article {
+    float: left;
+    width: 300px;
+	margin: 0 13.3px 0 0;
+}
+
+.article-first {
+    float: left;
+    width: 940px;
+	margin: 0 13.3px 0 0;
+}
+
+.article p {
+    font-size:14px;
+    color:#333;
+}
+
+footer{
+
+border-bottom: 1px dashed #CECECE;
+padding:10px 0 0 0 ;
+width: 940px;
+margin: 40px auto 150px;
+color: black;
+text-transform: uppercase;
+letter-spaceing: 3px;
+}
+
+#left{
+padding:10px 0 0 0 ;
+width:50%;
+float: left;background-color: 231313;
+}
+
+#right{
+padding:10px 0 0 0 ;
+width:50%;
+float: right;
+text-align:right;background-color: 231313;
+}
+
+#footer p {
+    color: #CECECE;
+}
+#footer a {
+    color:#CECECE;
+}
+#footer a:hover {
+    color:#3A9EF4;
+}
+
+ul{border:0; margin:0; padding:0;}
+
+#pagination-clean li{
+border:0; margin:0; padding:0;
+font-size:11px;
+list-style:none;
+text-align:center;
+}
+#pagination-clean li, #pagination-clean a{
+border:solid 1px #DEDEDE
+margin-right:2px;
+
+}
+#pagination-clean .previous-off,
+#pagination-clean .next-off {
+color:#888888
+display:block;
+float:left;
+font-weight:bold;
+padding:3px 4px;
+
+}
+#pagination-clean .next a,
+#pagination-clean .previous a {
+font-weight:bold;
+border:solid 1px #FFFFFF;
+} 
+#pagination-clean .active{
+color:#00000
+font-weight:bold;
+display:block;
+float:left;
+padding:4px 6px;
+}
+#pagination-clean a:link,
+#pagination-clean a:visited {
+color:#0033CC
+display:block;
+float:left;
+padding:3px 6px;
+text-decoration:none;
+}
+#pagination-clean a:hover{
+text-decoration:none;
+}
+
+#box {width:900px;
+height:200px;
+padding:10px;
+border:2px solid gray;
+margin:10px;}
+
+/* END OF MAIN INDEX CSS */
+
+/* PROFIL CSS */
+
+#box-profil {
+width:170px;
+height:170px;
+padding:10px;
+border:2px solid gray;
+margin:10px;}
+
+.article-profil {
+    float: left;
+    width: 200px;
+	margin: 0 13.3px 0 0;
+}
+
+.article-profil-details  {
+    float: left;
+    width: 400px;
+	margin: 0 13.3px 0 0;
+}
+
+.article-profil2 {
+    float: right;
+    width: 200px;
+	margin: 0 13.3px 0 0;
+}
+
+
+
+#user-details {
+	padding: 42px 0 0 0;
+	margin: 20px 0 20px 0;
+}
+
+.classname {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#777777;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffffff;
+}.classname:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+}.classname:active {
+	position:relative;
+	top:1px;
+}
+
+#details { padding: 36px 0 0 0; margin: 10px; list-style-type: none;}
+
+#details  li {margin: 16px;}
+
+/* END PROFIL CSS */
